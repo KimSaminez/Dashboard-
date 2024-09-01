@@ -1,0 +1,84 @@
+
+:root{
+    --cor-principal: #293FFF;
+    --cor-secundaria: #A8AFFF;
+  
+
+    --fonte-principal:'Poppins';
+    --fonte-secundaria: 'urbanist';
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    display: flex;
+}
+
+.painel_principal{
+    display: flex;
+}
+.painel_Esquerdo{
+ 
+    margin: 20px;
+}
+.perfil{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    img{
+        width: 20%;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+}
+.menu{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0 50px;
+  
+    a{
+        text-decoration: none;
+        color: #000;
+  }
+ 
+}
+.topo-adicionar-gestor{
+    display: flex;
+    justify-content: space-between;
+    gap: auto;
+
+}
+.butao-adicionar-gestor{
+    background-color: #293FFF;
+    
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+@media screen (max-width 900){
+  body{
+    
+  }
+    
+}

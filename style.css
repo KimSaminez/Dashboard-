@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --cor-prmaria: #a8afff;
-    --cor-secundaria: ;
+    --cor-principal: #293FFF;
+    --cor-secundaria: #A8AFFF;
+  
 
     --fonte-principal:'Poppins';
     --fonte-secundaria: 'urbanist';
@@ -14,7 +15,7 @@
 
 body{
     box-sizing: border-box;
-    background-color: var(--cor-prmaria);
+    background-color: var(--cor-secundaria);
     font-family: var(--fonte-principal);
     
 }
@@ -59,14 +60,63 @@ body{
 .gestor_dashboard{
     width: 100%;
     margin: 20px;
-    font-style: bold;
     background-color: #FFFFFF;
     border-radius:20px;
+
+    
 }
 
-.home{
+.controle-area{
     display: flex;
+    width: 880px;
     align-items: flex-start;
-    justify-content: space-between;
-    gap: 10px;
+    align-content: flex-start;
+    gap: 50px;
+    
+     
+
+}
+.controle{
+    
+    width: 260px;
+    height: 108px;
+    display: flex;
+    border: solid 0.5px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.20);
+   
+}
+
+.gerenciador-area{
+    width: 913px;
+    height: 272px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.gerenciador{
+    color: var(--cor-principal, #293FFF);
+    font-family: Urbanist;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    margin: 44px 30px;
+    width: 262px;
+    height: 228px;
+    column-gap: 50px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.20);
+    
+}
+.dados-gerenciador{
+    color: #A8AFFF;
+}
+.dados-gerenciador-atualizado{
+    color:#262A41;
 }

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor-prmaria: #a8afff;
+    --cor-secundaria: ;
+
+    --fonte-principal:'Poppins';
+    --fonte-secundaria: 'urbanist';
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-prmaria);
+    font-family: var(--fonte-principal);
+    
+}
+
+.painel_principal{
+    display: flex;
+    gap: 32px;
+}
+.painel_Esquerdo{
+ 
+    margin: 20px;
+}
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    img{
+        width: 20%;
+    }
+}
+.painel_funcoes{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font: normal 25px Arial;
+  
+ 
+}
+.gestor_dashboard{
+      font-style: bold;
+      background-color: #FFFFFF;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+controle_area{
+    width: 20px 40px;
+    border: sold;
+    
+}

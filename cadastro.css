@@ -77,8 +77,20 @@ body{
 }
 
 @media screen (max-width 900){
-  body{
+    .perfil{
+        margin: 10%;
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        img{
+            width: 20%;
+        }
+        
+        h1{
+            font-size: 5%;
+        }
     
-  }
-    
+}
 }

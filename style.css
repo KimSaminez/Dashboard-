@@ -21,13 +21,14 @@ body{
 
 .painel_principal{
     display: flex;
-    gap: 32px;
 }
 .painel_Esquerdo{
  
     margin: 20px;
 }
 .perfil{
+    margin: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,26 +36,37 @@ body{
     img{
         width: 20%;
     }
+    
+    h1{
+        font-size: 30px;
+    }
 }
 .painel_funcoes{
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    font: normal 25px Arial;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0 50px;
   
+    a{
+        text-decoration: none;
+        color: #000;
+  }
  
 }
 .gestor_dashboard{
-      font-style: bold;
-      background-color: #FFFFFF;
+    width: 100%;
+    margin: 20px;
+    font-style: bold;
+    background-color: #FFFFFF;
+    border-radius:20px;
 }
 
 .home{
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
-}
-controle_area{
-    width: 20px 40px;
-    border: sold;
-    
+    gap: 10px;
 }
